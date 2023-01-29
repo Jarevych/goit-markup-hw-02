@@ -1,0 +1,38 @@
+.logo {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #4D5AE5;
+
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #2E2F42;
+
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+.header {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    background: #FFFFFF;
+    justify-content: flex-start;
+}
+.nav {
+    justify-content: flex-start;
+}
