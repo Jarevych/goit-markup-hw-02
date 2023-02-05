@@ -107,7 +107,7 @@ h2 {
     background-color: #FFFFFF;
 } */
 .empl-item {
-    background-color: #var(--clr-btn-hvr);
+    background-color: var(--clr-btn-hvr);
 }
 /**/
 /*навігація*/
@@ -125,8 +125,6 @@ h2 {
 .site-nav-btn:focus {
     color: var(--clr-link);
 }
-
-
 /* адреса */
 
 .address-link {
