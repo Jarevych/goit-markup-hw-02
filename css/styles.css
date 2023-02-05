@@ -39,12 +39,12 @@ h2 {
 }
 
 .header-logo {
-    font-family: 'Raleway';
+    /* font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    text-transform: uppercase;
+    text-transform: uppercase; */
     color: var(--clr-dmain);
     text-decoration: none;
 }
@@ -77,6 +77,7 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
     border: none;
+    cursor: pointer;
 }
 .features-list h3 {
     font-weight: 500;
@@ -120,30 +121,15 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
 }
-.studio-btn {
+.site-nav-btn {
     text-decoration: none;
     color: var(--clr-dmain);
 }
-.studio-btn:hover,
-.studio-btn:focus {
+.site-nav-btn:hover,
+.site-nav-btn:focus {
     color: var(--clr-link);
 }
-.portfolio-btn {
-    text-decoration: none;
-    color: #var(--clr-dmain);
-}
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-    color: var(--clr-link);
-}
-.contacts-btn {
-    text-decoration: none;
-    color: var(--clr-dmain);
-}
-.contacts-btn:hover,
-.contacts-btn:focus {
-    color: var(--clr-link);
-}
+
 
 /* адреса */
 
@@ -193,6 +179,7 @@ h2 {
     color: var(--clr-btn);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer;
 }
 .portfolio img {
     width: 360px;
@@ -223,11 +210,11 @@ h2 {
     letter-spacing: 0.02em;
 }
 .footer-logo {
-    font-family: 'Raleway';
+    /* font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    text-transform: uppercase;
+    text-transform: uppercase; */
     color: #F4F4FD;
 }
