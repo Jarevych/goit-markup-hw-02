@@ -14,7 +14,6 @@ ul {
     list-style: none;
 }
 h2 {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     color: var(--clr-dmain);
@@ -55,7 +54,6 @@ h2 {
     background-color: var(--clr-dmain);
 }
 .hero h1{
-    font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     color: var(--clr-btn-hvr);
@@ -78,31 +76,29 @@ h2 {
     line-height: 1.5;
     border: none;
     cursor: pointer;
+    color: #FFFFFF;
 }
 .features-list h3 {
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
 }
 .features-list p {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: var(--clr-main);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--clr-main);
 }
 .employee {
         width: 1440px;
         background-color: #F4F4FD;
 }
 .employee h3 {
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--clr-dmain);
+    font-weight: 500;
 }
 .employee p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--clr-main);
@@ -117,9 +113,9 @@ h2 {
 /*навігація*/
 .site-nav {
     font-style: unset;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 500;
 }
 .site-nav-btn {
     text-decoration: none;
@@ -133,36 +129,20 @@ h2 {
 
 /* адреса */
 
-.mail {
+.address-link {
     color: var(--clr-main);
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
-.mail:hover,
-.mail:focus {
+.address-link:hover,
+.address-link:focus {
     color: var(--clr-link);
 }
-.phone {
-    color: var(--clr-main);
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.phone:hover,
-.phone:focus {
-    color: var(--clr-link);
-}
-
 
 /* кнопки фільтру */
 .filters {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     
@@ -185,7 +165,6 @@ h2 {
     width: 360px;
 }
 .portfolio h2 {
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--clr-dmain);
@@ -194,27 +173,18 @@ h2 {
 .portfolio p {
     color: var(--clr-main);
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .footer {
     width: 1440px;
-    /* height: 310px; */
     background-color: var(--clr-dmain);
     color: #E7E9FC;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .footer-logo {
-    /* font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    text-transform: uppercase; */
     color: #F4F4FD;
 }
