@@ -161,6 +161,9 @@ h2 {
     border-radius: 4px;
     cursor: pointer;
 }
+.portfolio a {
+    text-decoration: none;
+}
 .portfolio img {
     width: 360px;
 }
